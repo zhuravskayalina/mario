@@ -14311,10 +14311,7 @@ function spa() {
 }
 
 ;
-window.addEventListener("beforeunload", function (e) {
-  (e || window.event).returnValue = null;
-  return null;
-});
+
 
 /***/ }),
 
