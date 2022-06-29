@@ -261,8 +261,7 @@ a {
 
 .rules a:hover,
 .top-scores a:hover {
-    border: 2px solid black;
-    box-shadow: 6px 6px rgb(0, 0, 0);
+    background-color: #a3f44c;
 }
 
 .rules a:active,
@@ -273,13 +272,6 @@ a {
 
 .name-block {
     position: relative;
-}
-
-@keyframes pulsate {
-    50% {
-        color: #fff;
-        text-shadow: 0 -1px rgba(0, 0, 0, .3), 0 0 5px #f03000, 0 0 8px #f80000;
-    }
 }
 
 .name-block input {
@@ -296,13 +288,17 @@ a {
 .name-block input:focus {
     outline: none;
 }
-
+    
 .name-block label {
     font-size: 15px;
     margin: 0 auto;
-    -webkit-animation: pulsate 1.2s linear infinite;
-    animation: pulsate 1.2s linear infinite;
+    animation: blink 1s infinite; 
 }
+
+@keyframes blink {
+    from { opacity: 1; }
+    to { opacity: 0; }
+   }
 
 
 .rules-rules {
