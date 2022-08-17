@@ -1,21 +1,5 @@
-Canvas Boilerplate is the go-to solution for quickly creating modern canvas pieces using ES6 and webpack.
+# This is Mario Game by Angelina Zhuravskaya
 
-## Getting Started
+This is fully-functional side-scroller game with HTML5 canvas and JavaScript. 
 
-1.  Clone the repo:
-
-        git clone https://github.com/christopher4lis/canvas-boilerplate.git
-
-2.  Install dependencies:
-
-        yarn
-
-    or
-
-        npm install
-
-3.  Run webpack:
-
-        npm start
-
-Your canvas piece should open up automatically at http://localhost:3000 and you should see 'HTML CANVAS BOILERPLATE' on hover.
+It was my graduate project at "Web application development" course.
