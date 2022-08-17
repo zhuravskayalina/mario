@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario game - modals</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="modal">
+            <h1>Mario game</h1>
+            <div class="rules">
+                <a href="#" title="Game rules">rules</a>
+            </div>
+            <div class="top-scores">
+                <a href="#" title="Top game scores">top scores</a>
+            </div>
+            <div class="name-block">
+                <input type="text" class="name" id="name" required>
+                <span class="bar"></span>
+                <label class="label-name" for="name">enter your name</label>
+            </div>
+            <div class="button-block">
+                <button class="button">start new game</button>
+            </div>
+        </div>
+        <div class="modal">
+            <h1>Mario game RULES</h1>
+            <div class="rules-rules">
+                <div class="keys">
+                    <p><span>W</span>,<span>A</span>,<span>D</span></p>
+                    <p>---</p>
+                    <p>Go Up, left, right</p>
+                </div>
+                <div class="keys">
+                    <p><span>Space</span></p>
+                    <p>---</p>
+                    <p>shoot (when have fireflower)</p>
+                </div>
+                <div class="keys">
+                    <p><span>ESC</span></p>
+                    <p>---</p>
+                    <p>pause</p>
+                </div>
+                <div class="rules-text">
+                    <p>The goal of the game is to complete as many levels as possible, earning points.</p>
+                    <ul class="score-rules">
+                        <li>Hit the goomba - <span>100 scores.</span></li>
+                        <li>Take a fireFlower - <span>50 scores</span></li>
+                        <li>go to the next level - <span>100 scores</span></li>
+                    </ul>
+                    <p>the game continues until the player dies.</p>
+                </div>
+            </div>
+            <div class="button-block">
+                <button class="button">back</button>
+            </div>
+        </div>
+        <div class="modal">
+            <h1>top scores</h1>
+            <div class="scores">
+                <ul class="scores-list">
+                    <li>Angelina - <span>0</span></li>
+                    <li>Angelina - <span>0</span></li>
+                    <li>Angelina - <span>0</span></li>
+                    <li>Angelina - <span>0</span></li>
+                    <li>Angelina - <span>0</span></li>
+                </ul>
+            </div>
+            <div class="button button-block">
+                <button class="button">back</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
